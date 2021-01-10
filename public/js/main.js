@@ -51,4 +51,93 @@
 // }
 
 // EXO 6
-let pack = prompt ('Bienvenu(e) chez Beny Inc.')
+let pack = prompt ('Bienvenu(e) chez Beny Inc. désirez-vous vous abonnez ?')
+let result1 = ('Normal')
+let result2 = ('Luxe')
+if (pack == 'oui') {
+    prompt('Désirez-vous prendre le pack Normal ou de Luxe ?')
+    alert(`Félicitation vous avez choisis la formule ${pack}!`)
+} else {
+    ask = prompt('Est-vous certaine ?')
+    if (ask == 'oui') {
+        alert('Dommage! Bonne journée')
+    } else {
+        prompt('Désirez-vous prendre le pack Normal ou de Luxe ?')
+    }
+    
+}
+
+// EXO 7
+// let quest1 = prompt("Quel est ta couleur préférée ?")
+// let quest2 = prompt ("Quel est ta ville préférée ?")
+// let rep1 = "Bleu"
+// let rep2 = "New York"
+// if (ask != reponse1 && ask2 != reponse2) {
+//         alert("Aucune des 2 réponses est valide");
+//     } else if (ask != rep1 && quest2 == rep2) {
+//         alert("Tu es presque ");
+//     } else if (ask == rep1 && quest2 != rep2) {
+//         alert("Tu es presque ");
+//     } else if (ask == rep1 && quest2 == rep2) {
+//         alert("Bien joué ");
+//     };
+    
+let ask = prompt("Comment trouves-tu mes bombons? ");
+let ask2 = prompt("Comment trouves-tu les marshmallows");
+let reponse1 = "Bon";
+let reponse2 = "Pas bon";
+if (ask != reponse1 && ask2 != reponse2) {
+    alert("Aucune des 2 réponses est valide");
+} else if (ask != reponse1 && ask2 == reponse2) {
+    alert("Tu es presque ");
+} else if (ask == reponse1 && ask2 != reponse2) {
+    alert("Tu es presque ");
+} else if (ask == reponse1 && ask2 == reponse2) {
+    alert("Bien joué ");
+};
+
+// Exo 8
+// let age = prompt("Quel est votre age? ");
+// if (age > 100) {
+//     alert("Vous ne pouvez pas reserver car vous etes trop vieux");
+// } else if ( age < 0) {
+//     alert("Vous ne pouvez pas reserver car vous n'etes meme pas né");
+// } else if ( age < 18) {
+//     alert("Vous ne pouvez pas reserver car vous etes mineur");
+// } else if ( age > 18 ) {
+//     alert("Vous pouvez reserver car vous etes majeur");
+// } else {
+//     alert("Vous pouvez rentrer mais c'est tout juste")
+// }
+
+// Exo 9
+// let riche = prompt("Est-ce que vous etes riche? ");
+// let vacances = prompt("Voulez vous partir en vacances? ");
+// let chat = prompt("Est-ce que vous avez un chat");
+// if ( vacances == "non") {
+//     alert("Pas de problème, ne partez pas en vacances");
+// } else if ( riche == "non" || chat == "oui") {
+//     alert("Meme si vous voulez, vous ne pouvez pas partir");
+// } else if ( riche == "oui" && chat == "non") {
+//     alert("Vous pourriez partir en vacances si vous le vouliez");
+// } else if ( riche == "oui" && chat=="non" && vacances == "oui") {
+//     alert("Tout est parfait, partez en vacances");
+// } 
+
+// if (vacances == "oui" ) {
+
+//     if (riche == "non" || chat == "oui") {
+//         alert("Meme si vous voulez, vous ne pouvez pas partir");
+
+//     } else if (riche == "oui" && chat == "non") {
+//         alert("Tout est parfait, partez en vacances");
+
+//     } else if (riche == "oui" || chat == "non") {
+//         alert("InchAllah, t'es riche sinon tu reste a la dar a fou")
+//     }
+
+// } else {
+//     alert("Pas de problème, ne partez pas en vacances");
+// }
+
+
